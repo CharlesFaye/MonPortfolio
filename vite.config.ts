@@ -7,7 +7,6 @@ export default defineConfig({
     host : '0.0.0.0',
     port : 5173,
   },
-  base : "/MonPortfolio",
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],

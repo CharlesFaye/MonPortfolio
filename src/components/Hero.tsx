@@ -1,5 +1,5 @@
 import { ArrowRight } from 'lucide-react';
-import heroImage from "../assets/images/hero-image.jpeg";
+
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
           <div className="relative">
             <img 
-              src={heroImage} 
+              src="/assets/images/hero-image.jpeg"
               alt="Un développeur pointé en face de deux écrans."
               className="rounded-lg shadow-2xl"
             />

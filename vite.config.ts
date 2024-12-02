@@ -8,7 +8,6 @@ export default defineConfig({
     port : 5173,
   },
   plugins: [react()],
-  base : "/MonPortfolio",
   optimizeDeps: {
     exclude: ['lucide-react'],
   },

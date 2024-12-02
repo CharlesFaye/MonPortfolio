@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: 'Application Djay Suñu Mbay',
       description: 'Application de commerce basique conçue avec Java et XML',
-      image: 'src/images/img_app.jpg',
+      image: '/assets/images/dsm-app.jpg',
       technologies: ['Java', 'XML'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com/CharlesFaye/DSMApp',
@@ -13,7 +13,7 @@ const Projects = () => {
     {
       title: 'Site web Djay Suñu Mbay',
       description: 'Site web de commerce conçu avec WordPress en plus de l\'incontournable Elementor. ',
-      image: 'src/images/imgdsm.png',
+      image: '/assets/images/dsm-website.png',
       technologies: ['WordPress', 'Elementor', 'smart-slider'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com/CharlesFaye/DSM_WP_Site',
@@ -21,7 +21,7 @@ const Projects = () => {
     {
       title: 'Construction-Hub',
       description: 'Un site de B.T.P construit avec WordPress et Elementor.',
-      image: 'src/images/btp.png',
+      image: '/assets/images/btp.png',
       technologies: ['WordPress', 'Elementor'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com/CharlesFaye/BTP_WP',
@@ -29,7 +29,7 @@ const Projects = () => {
     {
       title: 'Bibliothèque Virtuelle',
       description: 'Une application web de gestion de livres construite avec du HTML, du CSS et du JavaScript.',
-      image: 'src/images/biblio.png',
+      image: '/assets/images/biblio.png',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveLink: 'https://example.com',
       githubLink: 'https://github.com/CharlesFaye/biblio',

@@ -69,7 +69,7 @@ const Header = () => {
                 <Linkedin size={20} />
               </a>
               <a href="https://x.com/Bebouzo" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900" aria-label='Voir mon profil Twitter'>
-                <Twitter size={20} />
+              <FontAwesomeIcon icon={faXTwitter} size="lg" style={{ marginTop: '5px' }}  />
               </a>
             </div>
           </div>

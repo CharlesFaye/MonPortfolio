@@ -19,6 +19,7 @@ const Hero = () => {
               <a 
                 href="#contact"
                 className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                aria-label='Accéder à mes coordonnées'
               >
                 Me Contacter
                 <ArrowRight className="ml-2" size={20} />
@@ -26,6 +27,7 @@ const Hero = () => {
               <a 
                 href="#projects"
                 className="inline-flex items-center px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors"
+                aria-label="Voir les projets que j'ai réalisés"
               >
                 Voir mes projets
               </a>

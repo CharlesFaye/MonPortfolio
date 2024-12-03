@@ -1,5 +1,9 @@
 import React from 'react';
 import { Menu, X, Github, Linkedin, Twitter } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
+
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -19,11 +23,11 @@ const Header = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#home" className="text-gray-600 hover:text-gray-900">Accueil</a>
-            <a href="#about" className="text-gray-600 hover:text-gray-900">À Propos</a>
-            <a href="#skills" className="text-gray-600 hover:text-gray-900">Compétences</a>
-            <a href="#projects" className="text-gray-600 hover:text-gray-900">Projets</a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
+            <a href="#home" className="text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2">Accueil</a>
+            <a href="#about" className="text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2">À Propos</a>
+            <a href="#skills" className="text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2">Compétences</a>
+            <a href="#projects" className="text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2">Projets</a>
+            <a href="#contact" className="text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2">Contact</a>
             <div className="flex items-center gap-4">
               <a href="https://github.com/CharlesFaye" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                 <Github size={20} />
@@ -32,7 +36,8 @@ const Header = () => {
                 <Linkedin size={20} />
               </a>
               <a href="https://x.com/Bebouzo" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
-                <Twitter size={20} />
+              <FontAwesomeIcon icon={faXTwitter} size="lg" style={{ marginTop: '5px' }}  />
+
               </a>
             </div>
           </nav>
@@ -51,19 +56,19 @@ const Header = () => {
       {isMenuOpen && (
         <nav className="md:hidden bg-white border-t">
           <div className="flex flex-col px-4 py-2">
-            <a href="#home" className="py-2 text-gray-600 hover:text-gray-900" onClick={closeMenu}>Accueil</a>
-            <a href="#about" className="py-2 text-gray-600 hover:text-gray-900" onClick={closeMenu}>À Propos</a>
-            <a href="#skills" className="py-2 text-gray-600 hover:text-gray-900" onClick={closeMenu}>Compétences</a>
-            <a href="#projects" className="py-2 text-gray-600 hover:text-gray-900" onClick={closeMenu}>Projets</a>
-            <a href="#contact" className="py-2 text-gray-600 hover:text-gray-900" onClick={closeMenu}>Contact</a>
+            <a href="#home" className="py-2 text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2" onClick={closeMenu}>Accueil</a>
+            <a href="#about" className="py-2 text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2" onClick={closeMenu}>À Propos</a>
+            <a href="#skills" className="py-2 text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2" onClick={closeMenu}>Compétences</a>
+            <a href="#projects" className="py-2 text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2" onClick={closeMenu}>Projets</a>
+            <a href="#contact" className="py-2 text-gray-600 hover:text-gray-900 focus:outline-2 focus:outline focus:outline-text-gray-900 focus:outline-offset-2" onClick={closeMenu}>Contact</a>
             <div className="flex items-center gap-4 py-2">
-              <a href="https://github.com/CharlesFaye" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+              <a href="https://github.com/CharlesFaye" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900" aria-label='Voir mon profil Github'>
                 <Github size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/charles-simel-faye-3382bb2aa/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+              <a href="https://www.linkedin.com/in/charles-simel-faye-3382bb2aa/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900" aria-label='Voir mon profil Linkedin'>
                 <Linkedin size={20} />
               </a>
-              <a href="https://x.com/Bebouzo" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+              <a href="https://x.com/Bebouzo" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900" aria-label='Voir mon profil Twitter'>
                 <Twitter size={20} />
               </a>
             </div>

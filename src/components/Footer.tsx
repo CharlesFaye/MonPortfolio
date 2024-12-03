@@ -1,4 +1,6 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
@@ -13,6 +15,7 @@ const Footer = () => {
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition-colors"
+              aria-label='Voir mon profil Github'
             >
               <Github size={24} />
             </a>
@@ -21,6 +24,7 @@ const Footer = () => {
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition-colors"
+              aria-label='Voir mon profil Linkedin'
             >
               <Linkedin size={24} />
             </a>
@@ -29,8 +33,9 @@ const Footer = () => {
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition-colors"
+              aria-label='Voir mon profil Twitter'
             >
-              <Twitter size={24} />
+              <FontAwesomeIcon icon={faXTwitter} size="lg" style={{ marginTop: '5px' }}  />
             </a>
            
               

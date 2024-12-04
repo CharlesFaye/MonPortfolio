@@ -9,7 +9,7 @@ const Hero = () => {
           <div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
                 Développeur Front-End
-              <span className="block text-blue-600">Je crée des expériences web uniques et modernes</span>
+              <span className="text-3xl md:text-5xl block text-blue-600">Je crée des expériences web uniques et modernes</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8">
               Avec + de 2 ans d'expérience dans le domaine de la technologie, je suis là pour satisfaire vos exigences en termes

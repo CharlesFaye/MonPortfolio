@@ -2,10 +2,10 @@ const Skills = () => {
   const skills = [
     { name: 'HTML5', level: 90 },
     { name: 'CSS3', level: 85 },
-    { name: 'JavaScript', level: 80 },
-    { name: 'Tailwind CSS', level: 85 },
+    { name: 'JavaScript', level: 75 },
+    { name: 'Tailwind CSS', level: 80 },
     { name: 'WordPress', level: 75 },
-    { name: 'Développement Mobile', level: 50 },
+    { name: 'Développement Android', level: 50 },
   ];
 
   return (

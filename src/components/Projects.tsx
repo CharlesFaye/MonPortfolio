@@ -15,7 +15,7 @@ const Projects = () => {
       description: 'Site web de commerce conçu avec WordPress en plus de l\'incontournable Elementor. ',
       image: '/assets/images/dsm-website.png',
       technologies: ['WordPress', 'Elementor', 'smart-slider'],
-      liveLink: 'https://example.com',
+      liveLink: 'https://dsm-wp.vercel.app/',
       githubLink: 'https://github.com/CharlesFaye/DSM_WP_Site',
     },
     {
@@ -23,7 +23,7 @@ const Projects = () => {
       description: 'Un site de B.T.P construit avec WordPress et Elementor.',
       image: '/assets/images/btp.png',
       technologies: ['WordPress', 'Elementor'],
-      liveLink: 'https://example.com',
+      liveLink: 'https://simply-static-five.vercel.app/',
       githubLink: 'https://github.com/CharlesFaye/BTP_WP',
     },
     {
@@ -31,8 +31,16 @@ const Projects = () => {
       description: 'Une application web de gestion de livres construite avec du HTML, du CSS et du JavaScript.',
       image: '/assets/images/biblio.png',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      liveLink: 'https://example.com',
+      liveLink: 'https://biblio-omega.vercel.app/',
       githubLink: 'https://github.com/CharlesFaye/biblio',
+    },
+    {
+      title: 'Todo App',
+      description: 'Une application web de gestion de tâches utilisant les fonctionnalités modernes CRUD (Création, Lecture, Mise à jour et Suppression).',
+      image: '/assets/images/todo-app-img.png',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      liveLink: 'https://todo-app-two-navy-61.vercel.app/',
+      githubLink: 'https://github.com/CharlesFaye/Todo-app',
     },
   ];
 
